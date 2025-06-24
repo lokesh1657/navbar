@@ -1,17 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: Roboto Slab;
+    font-family: Lato;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
 }
 nav{
-    background: rgb(85, 85, 240);
+    background: #6e7275;
     height: 80px;
     width: 100%;
 }
@@ -47,12 +50,12 @@ a:active,a:hover{
 }
 .checkbtn{
     font-size: 30px;
-    color: rgb(209, 22, 22);
+    color: rgb(249, 246, 246);
     float: right;
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
 #check{
     display: none;
@@ -85,7 +88,7 @@ section{
         height: 100vh;
         background: #2c3e50;
         top: 80px;
-        left:-100;
+        left:-100%;
         text-align: center;
         transition: all .5s;
     }
@@ -102,13 +105,6 @@ section{
         color: #0082e6;
     }
     #check:checked ~ ul{
-        left:-100%;
+        left: 0;
     }
-}
-section{
-    /* background: ur ("bg1.jpg") no repeat; */
-    background-image: url("../images/beach.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px000=0z);
 }
